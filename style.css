@@ -480,7 +480,7 @@ footer{
 }
 .about-heading{
     margin: 2% 6% 2% 6%;
-    text-align: justify;
+    /* text-align: justify; */
 }
 .about-heading h1{
     font-size: 40px;
@@ -518,7 +518,7 @@ footer{
     width: 170px;
     height: 35px;
     margin-top: 3%;
-    margin-bottom: 4%;
+    margin-bottom: 5%;
     background: linear-gradient(to right, #000046,#1cb5e0);
     border: none;
     border-radius: 25px;
@@ -556,4 +556,134 @@ footer{
 }
 .sub-btn{
     margin-top: 10px;
+}
+/* ========================Media Query==================== */
+
+@media screen and (max-width:600px){
+    header{
+        flex-direction: column;
+        min-height: 90vh;
+    }
+    .header-background{
+        min-height: 90vh;
+
+    }
+    .headerBg1{
+        flex-direction: column;
+        min-height: 90vh;
+    }
+    .header-background2{
+        min-height: 90vh;
+
+    }
+    .headerBg{
+        flex-direction: column;
+        min-height: 90vh;
+    }
+    .header-background1{
+        min-height: 90vh;
+
+    }
+    .headerBG2{
+        flex-direction: column;
+        min-height: 90vh;
+    }
+    .header-background2{
+        min-height: 90vh;
+
+    }
+    .headerBG3{
+        flex-direction: column;
+        min-height: 90vh;
+    }
+    .header-background3{
+        min-height: 90vh;
+    }
+    .contact{
+        flex-direction: column;
+    }
+    .content{
+        order: -1;
+    }
+    .content ul{
+        flex-direction: column;
+    }
+    .bgColor{
+        text-align: center;
+    }
+    .commercial1{
+        flex-direction: column;
+    }
+    .para1{
+        width: 100%;
+        height: 80vh;
+    }
+    .para1-img{
+        width: 100%;
+        height: 70vh;
+    }
+    .property-headings{
+        text-align: center;
+    }
+    .imgBottom{
+        width: 100%;
+        height: 45vh;
+    }
+    .imgBottom1{
+        width: 100%;
+        height: 45vh;
+    }
+    .testImages{
+        flex-direction: column;
+    }
+    .sanjayImg{
+        width: 130px;
+        height: 130px;
+    }
+    .footer-heading{
+        text-align: center;
+        flex-direction: column;
+    }
+    .heading-list{
+        text-align: center;
+        flex-direction: column;
+    }
+    .copyright{
+        text-align: center;
+    }
+    .commercial2{
+        flex-direction: column;
+    }
+    .para2{
+        width: 100%;
+        height: 80vh;
+    }
+    .paraCommercial-img{
+        width: 100%;
+        height: 80vh;
+    }
+    .paraResidential-img{
+        width: 100%;
+        height: 80vh;
+    }
+
+    .form-section{
+        margin-left: 3%;
+        margin-right: 3%;
+
+    }
+    .bottomText1 p{
+        text-align: inherit;
+        /* margin-left: 3%; */
+    }
+    /* article{
+        order: -1;
+    }
+    .services-container{
+        flex-direction: column;
+        align-items: center;
+    } */
+    h2{
+        text-align: center;
+    }
 }
